@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+<!------------------------------------ loading screeen  -->
+<section id="loading" class=" w-100 vh-100">
+    <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+      </div>
+</section>
+
+
+
+
+
+    <!-- -----------------------------------nav bar -------------------------------- -->
+->
+
+<nav id="icona"  class="navbar navbar-dark bg-dark position-fixed navooo position-relative top-0 bottom-0">
+    <div id="perantoo"  class="container-fluid bg-white w-100 h-100 ">
+
+ <div id="perant" class="perant bg-white w-100  h-100 d-flex flex-wrap align-content-between">
+
+    <div class="w-100 h-25 inMed ">
+        <a class="navbar-brand" href="#"><img class="w-100" src="imgs/logo.png" alt="site logo"></a>
+  </div>
+
+<div class="  h-auto  bak-bak text-center">
+   <button id="btnForNav"  class="navbar-toggler w-75 bak" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+  <span  class="navbar-toggler-icon  bak-bak "></span>
+</button>
+</div>
+
+<div class="iconat-in-nav w-100 h-25 bg-y ">
+    <i class="fa-solid fa-globe"></i>
+    <i class="fa-solid fa-share-nodes"></i>
+</div>
+
+ </div>
+     
+      <div class="offcanvas  offcanvas-start widthForLists text-bg-dark d-flex " tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        
+        <div class="offcanvas-header">
+          <button id="btnForNavSecond" type="button" class="btn-close btn-close-white align-self-center" data-bs-dismiss="offcanvas" ></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" onclick="readyForSearch()" href="#allMealsPlace">Search</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " onclick="getData()" aria-current="page" href="# ">Categories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " onclick="areaData()" aria-current="page" href="#">Area</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " onclick="grediantsData()" aria-current="page" href="#">Ingredients</a>
+              </li>
+              <li class="nav-item">
+                <a id="contactListItem" onclick="contactItemShow()" class="nav-link "  aria-current="page"  href="#contuctDetails ">Contact Us</a>
+              </li>
+            
+          </ul>
+       
+        </div>
+        <div class="tail-of-nav ">
+            <div class="all-icons pb-3">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-solid fa-globe"></i>
+             </div>
+
+             <p >Copyright Â© 2019 All Rights
+                Reserved.</p>
+           </div>       
+             
+      </div>
+    </div>
+  </nav>
+
+
+    <!-- --------------------------all meals here----------------------------------  -->
+    
+    <section id="allMealsPlace" class="m-auto w-100 d-flex justify-content-center d-block ">
+
+        <div  class="container w-100  m-auto text-center ">
+          <div  id="placeForCards" class="row ">
+
+          </div>
+
+      
+         
+
+
+         </div>
+      
+    </section>
+    
+<!-- ----------------------------------- meal details by id------------------------------------  -->
+
+<section id="mealsDetailsSingle" class="d-none">
+    <div class="container w-75 text-white ">
+ <div id="eachMealById"  class="row d-none">
+
+    <!-- <div class="col-md-4">
+        <img class="w-75 pt-2" src="download.jpeg" alt="">
+        <h2>meal name</h2>
+         </div>
+         <div class="col-md-8">
+        <h3>title</h3>
+        <p>Lorre magnam reprehendssimos molestias, aspernatur accusamus quas nobis enim! Harum tempora soluta, molestiae nisi a, amet alias quae ea odio eaque adipisci? Odio pariatur debitis, similique repudiandae deleniti aliquam vero ab repellendus accusantium aspernatur omnis eius obcaecati dignissimos asperiores nam cum impedit quod architecto nesciunt quisquam expedita nostrum cupiditate. Animi magnam eveniet eaque facilis enim! Tenetur reprehenderit beatae laborum. Provident perspiciatis consectetur asperiores voluptatum non officiis voluptatibus dignissimos sit id, inventore pariatur culpa minus! Minus consequatur maiores quisquam, deleniti, beatae autem adipisci dolorum quidem iste recusandae dignissimos voluptates sed. Vel quo quasi maiores nostrum dolorum nisi quod nemo beatae perferendis illo facere, veniam minus maxime nihil corrupti totam repellendus! Repudiandae quia tempora reprehenderit sapiente eius quo, deleniti recusandae commodi quibusdam quam consequuntur numquam harum accusantium inventore dicta eveniet est expedita velit saepe itaque, sequi maiores. Iste asperiores inventore ut officiis explicabo cumque repellat rem quo debitis voluptate magni, voluptas qui illo quidem quis dolores vitae facilis temporibus et dolorem blanditiis? Tempore vero earum sit, totam eveniet beatae temporibus molestias commodi numquam accusantium ut maxime expedita nihil, blanditiis hic minus excepturi, modi ea delectus quas? Dicta asperiores odit est ab enim provident molestiae mollitia ipsum dolor harum, velit adipisci illum cumque, deleniti earum impedit ducimus quibusdam voluptate, voluptatum laboriosam? Quas optio, tempore nemo corrupti eligendi aperiam!</p>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h3>tag</h3>
+        <div class="boton-collection">
+        <a href=""><div class="btn btn-danger">youtube</div></a>
+        <a href=""><div class="btn btn-success">source</div></a>
+        </div>
+         </div> -->
+
+
+
+
+
+
+
+
+</div>
+ </div> 
+</section>
+
+
+
+
+
+<!------------------------------ -------Search place--------------------  -->
+
+
+<section id="searchSection" class="d-none">
+    <i onclick="outFormSearch()" class="fa-solid fa-xmark text-white position-absolute top-0 end-0 text-icon-desc"></i>
+    <div class="container w-50 mt-5">
+    <div class="row ">
+        <div class="col-md-6">
+              <input id="btnForSearchByName" class="w-100 text-white rounded-2 p-2 bg-black" placeholder="Search by Name" type="text"> 
+        </div>
+        <div class="col-md-6">
+            <input id="btnForSearchByLetter" class="w-100 rounded-2 text-white p-2 bg-black "  maxlength="1" placeholder="Search by First Letter" type="text"> 
+      </div>
+   
+        
+
+    </div>
+</div>
+</section>
+
+
+
+<!------------------------------------ contact us  ------------- -->
+<section id="contuctDetails" class="w-100 h-100 d-flex justify-content-center align-content-center position-absolute top-40 d-none ">
+   
+  <div class="container h-75 w-75 align-self-center  text-center ">
+      <div class="row ">
+         <div class="col-md-6 ">
+          <input type="text" placeholder="Enter your name" class="w-100 rounded-2 mb-1 mt-1 btn bg-white">
+         </div> 
+         <div class="col-md-6">
+          <input type="email" placeholder="Enter your email" class="w-100 rounded-2 mb-1 mt-1 btn bg-white ">
+         </div> 
+      </div>
+      <div class="row ">
+          <div class="col-md-6">
+           <input type="number" placeholder="Enter your phone" class="w-100 rounded-2 btn mb-1 mt-1 bg-white">
+          </div> 
+          <div class="col-md-6">
+           <input type="number" placeholder="Enter your age" class="w-100 rounded-2 btn mb-1 mt-1 bg-white ">
+          </div> 
+       </div>
+       <div class="row ">
+          <div class="col-md-6">
+           <input type="text" placeholder="Enter your password" class="w-100 rounded-2 mb-1 mt-1 btn bg-white">
+          </div> 
+          <div class="col-md-6">
+           <input type="text" placeholder="re-password" class="w-100 rounded-2 mb-1 mt-1 btn bg-white ">
+          </div> 
+       </div>
+       <button class="btn btn-danger text-bg-danger" > submit</button>
+  </div>
+  
+  </section>
+  
+
+
+
+  
+
+
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/jquery-3.6.3.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
