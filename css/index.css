@@ -1,0 +1,115 @@
+body{
+    background-color: black;
+    /* overflow: hidden; */
+}
+
+/* ---------------------nav bar------------  */
+.bak {
+    color: black;
+    background-color: black;
+ 
+}
+.bak-bak{
+  text-align: center !important;
+position: relative;
+right: 10px;
+
+}
+
+.navooo{
+width: 7%;
+z-index: 99;
+}
+.widthForLists{
+    width: 13% !important;
+    background-color: #0D0D0D !important;
+}
+
+
+
+.dark-layer{
+    background-color: rgba(244, 240, 240, 0.6);
+    position: absolute;
+    top: 100%;
+    transition: all 1s;
+}
+.col-md-3:hover .dark-layer {
+    top:0px;
+   
+}
+.text-desc{
+    font-size: 0.9rem;
+    text-align: center;
+}
+.text-icon-desc{
+    font-size: 1.8rem;
+}
+
+
+
+
+/*--------------------------- loading screen ---------------------- */
+#loading {
+    background-color: #09c;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999999999999;
+}
+
+
+
+.spinner {
+    width: 40px;
+    height: 40px;
+  
+    position: relative;
+    margin: 300px auto;
+  }
+  
+  .double-bounce1, .double-bounce2 {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-self: center;
+    border-radius: 50%;
+    background-color: darkblue;
+    opacity: 0.6;
+    position: absolute;
+    top: center;
+    left: center;
+    bottom: center;
+    right: center;
+    
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+  }
+  
+  .double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+  }
+  
+  @-webkit-keyframes sk-bounce {
+    0%, 100% { -webkit-transform: scale(0.0) }
+    50% { -webkit-transform: scale(1.0) }
+  }
+  
+  @keyframes sk-bounce {
+    0%, 100% { 
+      transform: scale(0.0);
+      -webkit-transform: scale(0.0);
+    } 50% { 
+      transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+    }
+  }
+
+
+
+  .text-smaller{
+    font-size: 2rem;
+  }
